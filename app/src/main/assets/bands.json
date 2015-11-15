@@ -1,0 +1,32 @@
+{
+    "bands": [
+        {
+            "name": "Foolish Green",
+            "desc": "Opis",
+            "songs": [
+                {
+                    "songName": "Pesna1",
+                    "songDesc": "opis1"
+                },
+                {
+                    "songName": "Pesna2",
+                    "songDesc": "Opis2"
+                }
+            ]
+        },
+        {
+            "name": "PMG Kolektiv",
+            "desc": "Opis",
+            "songs": [
+                {
+                    "songName": "Pesna1",
+                    "songDesc": "opis1"
+                },
+                {
+                    "songName": "Pesna2",
+                    "songDesc": "Opis2"
+                }
+            ]
+        }
+    ]
+}
