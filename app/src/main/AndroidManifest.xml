@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.toshevski.android.bands" >
+    package="com.toshevski.android.bands">
 
     <application
         android:allowBackup="true"
