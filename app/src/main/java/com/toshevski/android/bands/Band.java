@@ -1,11 +1,12 @@
 package com.toshevski.android.bands;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
 /**
  * Created by l3ft on 11/15/15.
  */
-public class Band {
+public class Band implements Serializable {
     private String name;
     private ArrayList<Album> albums;
     private String description;
@@ -38,5 +39,13 @@ public class Band {
     }
     public String getGenre() {
         return genre;
+    }
+
+    public String[] getNamesofAlbums() {
+        String[] names = new String[albums.size()];
+        for (int i = 0; i < albums.size(); ++i) {
+            names[i] = albums.get(i).getName();
+        }
+        return names;
     }
 }

@@ -1,11 +1,12 @@
 package com.toshevski.android.bands;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
 /**
  * Created by l3ft on 11/15/15.
  */
-public class Album {
+public class Album implements Serializable {
     private String name;
     private String description;
     private int year;

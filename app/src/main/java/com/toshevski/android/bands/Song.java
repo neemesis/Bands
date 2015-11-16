@@ -1,9 +1,11 @@
 package com.toshevski.android.bands;
 
+import java.io.Serializable;
+
 /**
  * Created by l3ft on 11/16/15.
  */
-public class Song {
+public class Song implements Serializable {
     private String name;
     private String description;
     private int duration;

@@ -1,6 +1,7 @@
 package com.toshevski.android.bands;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -56,8 +57,9 @@ public class MainActivity extends Activity {
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast toast = Toast.makeText(getApplicationContext(), bands.get(position).getName(), Toast.LENGTH_SHORT);
-                toast.show();
+                Intent i = new Intent(getApplicationContext(), ShowBand.class);
+                i.putExtra("band", bands.get(position));
+                startActivity(i);
             }
         });
     }
