@@ -7,31 +7,36 @@ import java.util.ArrayList;
  */
 public class Band {
     private String name;
-    private ArrayList<Song> songs;
+    private ArrayList<Album> albums;
     private String description;
-    private int ID;
+    private String genre;
+    private int coverID;
 
-    public Band(String name, String description, int ID){
+    public Band(String name, String description, String genre, int coverID){
         this.name = name;
         this.description = description;
-        this.songs = new ArrayList<Song>();
-        this.ID = ID;
+        this.albums = new ArrayList<>();
+        this.genre = genre;
+        this.coverID = coverID;
     }
 
-    public void addSong(Song s) {
-        songs.add(s);
+    public void addAlbum(Album s) {
+        albums.add(s);
     }
 
     public String getName() {
         return name;
     }
-    public ArrayList<Song> getSongs() {
-        return songs;
+    public ArrayList<Album> getAlbums() {
+        return albums;
     }
     public String getDescription() {
         return description;
     }
-    public int getID() {
-        return ID;
+    public int getCoverID() {
+        return coverID;
+    }
+    public String getGenre() {
+        return genre;
     }
 }

@@ -1,17 +1,17 @@
 package com.toshevski.android.bands;
 
 /**
- * Created by l3ft on 11/15/15.
+ * Created by l3ft on 11/16/15.
  */
 public class Song {
     private String name;
     private String description;
-    private int year;
+    private int duration;
 
-    public Song(String name, String description, int year) {
+    public Song(String name, int duration, String description) {
         this.name = name;
+        this.duration = duration;
         this.description = description;
-        this.year = year;
     }
 
     public String getName() {
@@ -22,7 +22,7 @@ public class Song {
         return description;
     }
 
-    public int getYear() {
-        return year;
+    public int getDuration() {
+        return duration;
     }
 }
