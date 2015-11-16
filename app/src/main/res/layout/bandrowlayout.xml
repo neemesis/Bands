@@ -13,6 +13,7 @@
         android:smoothScrollbar="true"
         android:scrollingCache="true"
         android:animationCache="false"
+        android:cacheColorHint="#00000000"
         android:footerDividersEnabled="false"
         android:headerDividersEnabled="false"/>
 
