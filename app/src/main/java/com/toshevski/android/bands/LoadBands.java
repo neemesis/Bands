@@ -30,15 +30,15 @@ public class LoadBands {
 
 
         b.add(foolishGreen);
-        b.add(pmg);
-        b.add(foltin);
-        b.add(stringForces);
-        b.add(galatheia);
-        b.add(beiTheFish);
-        b.add(theJohn);
-        b.add(robotek);
-        b.add(millko);
         b.add(kirilDzhajkovski);
+        b.add(theJohn);
+        b.add(millko);
+        b.add(foltin);
+        b.add(beiTheFish);
+        b.add(galatheia);
+        b.add(robotek);
+        b.add(stringForces);
+        b.add(pmg);
 
         return b;
     }
