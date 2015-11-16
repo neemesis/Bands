@@ -13,7 +13,13 @@ public class LoadBands {
         Band foolishGreen = new Band("Foolish Green", "Opis 1", R.drawable.foolishgreen);
         Band pmg = new Band("PMG Kolektiv", "Opis 1", R.drawable.pmgkolektiv);
         Band foltin = new Band("Foltin", "Opis 1", R.drawable.foltin);
-        Band stringforces = new Band("String Forces", "Opis 1", R.drawable.stringforces);
+        Band stringForces = new Band("String Forces", "Opis 1", R.drawable.stringforces);
+        Band galatheia = new Band("Galatheia", "Opis 1", R.drawable.galatheia);
+        Band beiTheFish = new Band("Bei The Fish", "Opis 1", R.drawable.beithefish);
+        Band theJohn = new Band("The John", "Opis 1", R.drawable.thejohn);
+        Band robotek = new Band("Robotek", "Opis 1", R.drawable.robotek);
+        Band millko = new Band("Millko", "Opis 1", R.drawable.millko);
+        Band kirilDzhajkovski = new Band("Kiril Dzhajkovski", "Opis 1", R.drawable.kirildzhajkovski);
 
 
         foolishGreen.addSong(new Song("Song1", "Desc1", 1994));
@@ -26,7 +32,13 @@ public class LoadBands {
         b.add(foolishGreen);
         b.add(pmg);
         b.add(foltin);
-        b.add(stringforces);
+        b.add(stringForces);
+        b.add(galatheia);
+        b.add(beiTheFish);
+        b.add(theJohn);
+        b.add(robotek);
+        b.add(millko);
+        b.add(kirilDzhajkovski);
 
         return b;
     }
