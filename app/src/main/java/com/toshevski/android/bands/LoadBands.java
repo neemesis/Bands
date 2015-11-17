@@ -21,7 +21,7 @@ public class LoadBands {
                 "the idea called “Escape”. They contributed primarily with their empiricism. " +
                 "Foolish Green’s own produce reflect the wide variety of influences and breach " +
                 "psychedelic pop and rock’n’roll " +
-                "genres.", "Psychedelic Pop & Rock’n’Roll\n", R.drawable.foolishgreen);
+                "genres.\n", "Psychedelic Pop & Rock’n’Roll", R.drawable.foolishgreen);
         Band pmg = new Band("PMG Kolektiv", "\nPMG Kolektiv is a ritualistic dance band. " +
                 "Musick to rituals of Thee Klan Secular. " +
                 "Rough around thee edges and Straight. " +
@@ -45,7 +45,7 @@ public class LoadBands {
                 "French, Romanian, and Portuguese. The band took part in many music and " +
                 "theatre festivals in Macedonia, Croatia, Italy, Austria, Slovenia, Serbia, " +
                 "Bosnia and Herzegovina, Albania, Bulgaria, Hungary, Belgium, England, " +
-                "Lebanon, Turkey, the Netherlands, France etc.", "Hard To Define\n", R.drawable.foltin);
+                "Lebanon, Turkey, the Netherlands, France etc.\n", "Hard To Define", R.drawable.foltin);
         Band galatheia = new Band("Galatheia", "\nGalatheia is very talented and quite smart " +
                 "little lady from Skopje. Young. " +
                 "Stands accused of predatory musical elegance. " +

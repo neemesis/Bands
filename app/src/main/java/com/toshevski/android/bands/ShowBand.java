@@ -37,12 +37,13 @@ public class ShowBand extends Activity {
 
         AlbumAdapter aa = new AlbumAdapter(this, band.getAlbums(), band.getNamesofAlbums());
         ListView lv = (ListView) findViewById(R.id.albumList);
-        lv.addHeaderView(header);
+        lv.addHeaderView(header, null, false);
         lv.setAdapter(aa);
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast toast = Toast.makeText(getApplicationContext(), band.getAlbums().get(position).getName(), Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(getApplicationContext(), position + ": " +
+                        band.getAlbums().get(position - 1).getName(), Toast.LENGTH_SHORT);
                 toast.show();
             }
         });
