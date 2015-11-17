@@ -1,7 +1,9 @@
 package com.toshevski.android.bands;
 
 import android.app.Activity;
+import android.graphics.Typeface;
 import android.os.Bundle;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ImageView;
@@ -28,14 +30,14 @@ public class ShowBand extends Activity {
     protected void onResume() {
         super.onResume();
 
-        ImageView iv = (ImageView) findViewById(R.id.showBandCover);
-        iv.setImageResource(band.getCoverID());
-
-        TextView tv = (TextView) findViewById(R.id.bandDescription);
+        View header = getLayoutInflater().inflate(R.layout.band_description, null);
+        TextView tv = (TextView) header.findViewById(R.id.bandDescription);
+        tv.setTypeface(Typeface.createFromAsset(getAssets(), "CaviarDreams.ttf"));
         tv.setText(band.getDescription());
 
         AlbumAdapter aa = new AlbumAdapter(this, band.getAlbums(), band.getNamesofAlbums());
         ListView lv = (ListView) findViewById(R.id.albumList);
+        lv.addHeaderView(header);
         lv.setAdapter(aa);
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -44,5 +46,6 @@ public class ShowBand extends Activity {
                 toast.show();
             }
         });
+
     }
 }
