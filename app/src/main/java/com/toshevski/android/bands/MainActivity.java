@@ -7,7 +7,6 @@ import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -16,6 +15,7 @@ public class MainActivity extends Activity {
     private static final String TAG = "D.INFO";
 
     ArrayList<Band> bands;
+    private int beforePosition = 0;
 
     // Activity Lifecycle Part
 
@@ -54,9 +54,11 @@ public class MainActivity extends Activity {
         BandAdapter ba = new BandAdapter(this, bands, LoadBands.getNames(bands));
         ListView lv = (ListView) findViewById(R.id.bandList);
         lv.setAdapter(ba);
+        lv.setSelection(beforePosition);
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                beforePosition = position;
                 Intent i = new Intent(getApplicationContext(), ShowBand.class);
                 i.putExtra("band", bands.get(position));
                 startActivity(i);
