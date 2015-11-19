@@ -44,4 +44,12 @@ public class Album implements Serializable {
     public int getArtworkID() {
         return artworkID;
     }
+
+    public String[] getNames() {
+        String[] s = new String[songs.size()];
+        for (int i = 0; i < songs.size(); ++i) {
+            s[i] = songs.get(i).getName();
+        }
+        return s;
+    }
 }

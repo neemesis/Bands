@@ -15,10 +15,8 @@ import java.util.HashMap;
  */
 
 public class BandAdapter extends ArrayAdapter<String> {
-    private Context context;
     private ArrayList<Band> bands;
     private LayoutInflater inflater;
-    private HashMap<Integer, View> viewMap;
 
     static class ViewHolder {
         private ImageView bandCoverImg;
@@ -30,9 +28,7 @@ public class BandAdapter extends ArrayAdapter<String> {
 
     public BandAdapter(Context context, ArrayList<Band> bands, String[] names) {
         super(context, R.layout.bandrowlayout, names);
-        this.context = context;
         this.bands = bands;
-        viewMap = new HashMap<>();
         inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
     }
 
@@ -40,22 +36,12 @@ public class BandAdapter extends ArrayAdapter<String> {
         ViewHolder vh;
 
         if (convertView == null) {
-//            if (viewMap.containsKey(position)) {
-//                convertView = viewMap.get(position);
-//            } else {
-//                convertView = inflater.inflate(R.layout.bandrowlayout, parent, false);
-//                viewMap.put(position, convertView);
-//            }
             convertView = inflater.inflate(R.layout.bandrowlayout, parent, false);
             vh = new ViewHolder(convertView);
             convertView.setTag(vh);
         } else {
             vh = (ViewHolder) convertView.getTag();
         }
-
-
-
-        // vh.bandCoverImg = (ImageView) rowView.findViewById(R.id.bandCoverImg);
 
         Band band = bands.get(position);
         vh.bandCoverImg.setImageResource(band.getCoverID());

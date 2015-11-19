@@ -1,6 +1,7 @@
 package com.toshevski.android.bands;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.MotionEvent;
@@ -37,14 +38,16 @@ public class ShowBand extends Activity {
 
         AlbumAdapter aa = new AlbumAdapter(this, band.getAlbums(), band.getNamesofAlbums());
         ListView lv = (ListView) findViewById(R.id.albumList);
-        lv.addHeaderView(header, null, false);
+        if (lv.getHeaderViewsCount() == 0)
+            lv.addHeaderView(header, null, false);
         lv.setAdapter(aa);
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast toast = Toast.makeText(getApplicationContext(), position + ": " +
-                        band.getAlbums().get(position - 1).getName(), Toast.LENGTH_SHORT);
-                toast.show();
+                Intent i = new Intent(getApplicationContext(), ShowAlbum.class);
+                i.putExtra("album", band.getAlbums().get(position - 1));
+                i.putExtra("band", band.getName());
+                startActivity(i);
             }
         });
 

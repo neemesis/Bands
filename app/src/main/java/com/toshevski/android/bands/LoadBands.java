@@ -118,8 +118,7 @@ public class LoadBands {
                 "Priest (UK).\n", "Electronic", R.drawable.kirildzhajkovski);
 
         // Za albumite treba slika da se dodade vo konstruktorot.
-
-        foolishGreen.addAlbum(new Album("Escape", "All songs are written and " +
+        Album fg_Escape = new Album("Escape", "All songs are written and " +
                 "produced by Nenad Stefanovski\n" +
                 "All lyrics written by Nenad Stefanovski except “Sun is Gone”, written " +
                 "by Davor Stojanovski & Martin Kitanski\n" +
@@ -127,14 +126,14 @@ public class LoadBands {
                 "Mixing and mastering: Darko Spasovski-Packi\n" +
                 "Cover by Miki Stefanovski\n" +
                 "Released by Password Production / " +
-                "ExitLabel", 2013, R.drawable.foolishgreen_escape));
-        foolishGreen.addAlbum(new Album("Laika", "Produced, written and composed by : " +
+                "ExitLabel", 2013, R.drawable.foolishgreen_escape);
+        Album fg_Laika = new Album("Laika", "Produced, written and composed by : " +
                 "Nenad Stefanoski (Foolish Green)\n" +
                 "Mixed and mastered by : Darko Spasovski – Packi\n" +
                 "Bass Guitar by : Teodor Boskov\n" +
                 "Cover Design : Miki Stefanoski\n" +
-                "Laika single released 17.12.2012", 2012, R.drawable.foolishgreen_laika));
-        foolishGreen.addAlbum(new Album("Sun is Gone", "All songs written, arranged and " +
+                "Laika single released 17.12.2012", 2012, R.drawable.foolishgreen_laika);
+        Album fg_SunIsGone = new Album("Sun is Gone", "All songs written, arranged and " +
                 "produced by Nenad Stefanovski\n" +
                 "Additional guitars on 01. by Davor Stojanovski and on 04. by Adi Imeri\n" +
                 "Additional backing vocals on 04. by Snezana Matovska\n" +
@@ -142,7 +141,24 @@ public class LoadBands {
                 "Mixed and produced by Darko Spasovski – Packi\n" +
                 "Cover design by Miki Stefanovski\n" +
                 "Sun is Gone EP " +
-                "released by MTV Adria 16.07.2012", 2012, R.drawable.foolishgreen_sunisgone));
+                "released by MTV Adria 16.07.2012", 2012, R.drawable.foolishgreen_sunisgone);
+
+        fg_Escape.addSong(new Song("Bon Voyage", 129, ""));
+        fg_Escape.addSong(new Song("Crystal Night", 243, ""));
+        fg_Escape.addSong(new Song("Lover Doll", 248, ""));
+        fg_Escape.addSong(new Song("Faux", 267, ""));
+        fg_Escape.addSong(new Song("Let Me Out", 243, ""));
+        fg_Escape.addSong(new Song("Magnum", 268, ""));
+        fg_Escape.addSong(new Song("Laika", 275, ""));
+        fg_Escape.addSong(new Song("Sun is Gone", 195, ""));
+        fg_Escape.addSong(new Song("I Don't Need No Love", 213, ""));
+        fg_Escape.addSong(new Song("Fade Away", 316, ""));
+        fg_Escape.addSong(new Song("Thousand Years of Sorrow", 206, ""));
+        fg_Escape.addSong(new Song("Escape", 271, ""));
+
+        foolishGreen.addAlbum(fg_Escape);
+        foolishGreen.addAlbum(fg_Laika);
+        foolishGreen.addAlbum(fg_SunIsGone);
 
         kirilDzhajkovski.addAlbum(new Album("FILTER AT " +
                 "THE MOVIES: HORROR", "Opis", 2014, R.drawable.kirildzhajkovski_filter));
