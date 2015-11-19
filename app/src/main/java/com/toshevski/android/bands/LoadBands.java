@@ -156,49 +156,288 @@ public class LoadBands {
         fg_Escape.addSong(new Song("Thousand Years of Sorrow", 206, ""));
         fg_Escape.addSong(new Song("Escape", 271, ""));
 
+        fg_Laika.addSong(new Song("Laika", -1, ""));
+
+        fg_SunIsGone.addSong(new Song("Sun is Gone", -1, ""));
+        fg_SunIsGone.addSong(new Song("Let Me Out", -1, ""));
+        fg_SunIsGone.addSong(new Song("Lover Doll", -1, ""));
+        fg_SunIsGone.addSong(new Song("Crystal Night", -1, ""));
+
         foolishGreen.addAlbum(fg_Escape);
         foolishGreen.addAlbum(fg_Laika);
         foolishGreen.addAlbum(fg_SunIsGone);
 
-        kirilDzhajkovski.addAlbum(new Album("FILTER AT " +
-                "THE MOVIES: HORROR", "Opis", 2014, R.drawable.kirildzhajkovski_filter));
-        kirilDzhajkovski.addAlbum(new Album("FILTER PRESENTS THE BEST OF 2013, " +
-                "VOL. 2", "Opis",2013, R.drawable.kirildzhajkovski_filter2));
-        kirilDzhajkovski.addAlbum(new Album("FILTER PRESENTS THE BEST OF " +
-                "2013", "Opis", 2013, R.drawable.kirildzhajkovski_filter3));
-        kirilDzhajkovski.addAlbum(new Album("REMIXED", "", 2013, R.drawable.kirildzhajkovski_remixed));
-        kirilDzhajkovski.addAlbum(new Album("Tricky Three", "", 2013, R.drawable.kirildzhajkovski_trickythree));
-        kirilDzhajkovski.addAlbum(new Album("Primitive Science", "", 2013, R.drawable.kirildzhajkovski_primitivescience));
-        kirilDzhajkovski.addAlbum(new Album("Spin Off", "", 2013, R.drawable.kirildzhajkovski_spinoff));
-        kirilDzhajkovski.addAlbum(new Album("Hell of a Road", "", 2013, R.drawable.kirildzhajkovski_hellofaroad));
-        kirilDzhajkovski.addAlbum(new Album("Djaikovski", "", 2012, R.drawable.kirildzhajkovski_djaikovski));
+        Album kd_LaCapinera = new Album("La Capinera", "", 2007, R.drawable.kirildzhajkovski_lacapinera);
+        Album kd_Balcancan = new Album("Balcancan", "", 2005, R.drawable.kirildzhajkovski_balcancan);
+        Album kd_ReligionSex = new Album("Religion & Sex", "", 2001, R.drawable.kirildzhajkovski_religionandsex);
+        Album kd_Dust = new Album("Dust", "", 2001, R.drawable.kirildzhajkovski_dust);
+        Album kd_Homebound = new Album("Homebound", "", 1999, R.drawable.kirildzhajkovski_homebound);
 
-        theJohn.addAlbum(new Album("THE JOHN & SPACE REBEL GANG " +
-                "LP", "", 2014, R.drawable.thejohn_spacerebel));
-        theJohn.addAlbum(new Album("WAUFVW!!!", "", 2012, R.drawable.thejohn_waufv));
-        theJohn.addAlbum(new Album("QUITE NOISE FOR " +
-                "EXPORT", "", 2011, R.drawable.thejohn_quitenose));
-        theJohn.addAlbum(new Album("AZDIS", "", 2011, R.drawable.thejohn_azdis));
-        theJohn.addAlbum(new Album("SELF TITLED", "", 2010, R.drawable.thejohn_selfttitled));
-        theJohn.addAlbum(new Album("Ти И Јас И Градот " +
-                "Наш", "", 2009, R.drawable.thejohn_tiijas));
-        theJohn.addAlbum(new Album("HAPPILYSAD", "", 2007, R.drawable.thejohn_happilysad));
+        kd_LaCapinera.addSong(new Song("Intro", -1, ""));
+        kd_LaCapinera.addSong(new Song("Blood Brothers", -1, ""));
+        kd_LaCapinera.addSong(new Song("Monologue", -1, ""));
+        kd_LaCapinera.addSong(new Song("Dead Are Waiting", -1, ""));
+        kd_LaCapinera.addSong(new Song("Hereafter", -1, ""));
+        kd_LaCapinera.addSong(new Song("Dust To Dust", -1, ""));
+        kd_LaCapinera.addSong(new Song("Monte Union", -1, ""));
+        kd_LaCapinera.addSong(new Song("Cherry Tree", -1, ""));
+        kd_LaCapinera.addSong(new Song("Primitive Science", -1, ""));
+        kd_LaCapinera.addSong(new Song("Sisters", -1, ""));
+        kd_LaCapinera.addSong(new Song("Monologue 2", -1, ""));
+        kd_LaCapinera.addSong(new Song("Angela's Voice", -1, ""));
+        kd_LaCapinera.addSong(new Song("Brothel Tango", -1, ""));
+        kd_LaCapinera.addSong(new Song("Luda Mara", -1, ""));
+        kd_LaCapinera.addSong(new Song("Mirrors", -1, ""));
+        kd_LaCapinera.addSong(new Song("Death", -1, ""));
 
-        millko.addAlbum(new Album("TI", "", 2015, R.drawable.millko_ti));
-        millko.addAlbum(new Album("SREDBA", "", 2014, R.drawable.millko_sredba));
-        millko.addAlbum(new Album("Луѓе", "", 2013, R.drawable.millko_lugje));
-        millko.addAlbum(new Album("ODI BEZ ZBOROVI", "", 2012, R.drawable.millko_odibezzborovi));
-        millko.addAlbum(new Album("CHANGES", "", 2009, R.drawable.millko_changes));
-        millko.addAlbum(new Album("DON'T LET THEM WIN", "", 2008, R.drawable.millko_dontletthemwin));
+        kd_Balcancan.addSong(new Song("Monte Union", -1, ""));
+        kd_Balcancan.addSong(new Song("Bar-Bari", -1, ""));
+        kd_Balcancan.addSong(new Song("The Legend of Trendafil Karanfilov", -1, ""));
+        kd_Balcancan.addSong(new Song("To The Sea", -1, ""));
+        kd_Balcancan.addSong(new Song("Finding El Dorado", -1, ""));
+        kd_Balcancan.addSong(new Song("Carpet Idea", -1, ""));
+        kd_Balcancan.addSong(new Song("Dr Safarafoff", -1, ""));
+        kd_Balcancan.addSong(new Song("June, July", -1, ""));
+        kd_Balcancan.addSong(new Song("Balcancan Chochek", -1, ""));
+        kd_Balcancan.addSong(new Song("Over Saturn", -1, ""));
+        kd_Balcancan.addSong(new Song("Santino's Coming", -1, ""));
+        kd_Balcancan.addSong(new Song("Meat Factory", -1, ""));
+        kd_Balcancan.addSong(new Song("Good Night, Bro", -1, ""));
+        kd_Balcancan.addSong(new Song("Blue Idols", -1, ""));
+        kd_Balcancan.addSong(new Song("Baba Zumbula", -1, ""));
 
-        foltin.addAlbum(new Album("Пијан Славеј", "", 2015, R.drawable.foltin_pijanslavej));
-        foltin.addAlbum(new Album("Антитело", "", 2012, R.drawable.foltin_antitelo));
-        foltin.addAlbum(new Album("Ova Transplantirana Mashina Za Chukanje Dosega Ne Tipkala " +
-                "Ljubovno Pismo", "", 2008, R.drawable.foltin_ovaatransplatirana));
-        foltin.addAlbum(new Album("Lo-Lee-Ta-Too", "", 2005, R.drawable.foltin_loleetatoo));
-        foltin.addAlbum(new Album("Donkey Hot", "", 2003, R.drawable.foltin_donkeyhot));
-        foltin.addAlbum(new Album("Archimed", "", 2000, R.drawable.foltin_archimed));
-        foltin.addAlbum(new Album("Outre-Mer", "", 1997, R.drawable.foltin_outremer));
+        kd_ReligionSex.addSong(new Song("Home", -1, ""));
+        kd_ReligionSex.addSong(new Song("Powder Keg", -1, ""));
+        kd_ReligionSex.addSong(new Song("Religion & Sex", -1, ""));
+        kd_ReligionSex.addSong(new Song("Balkan Spy (Love Mix)", -1, ""));
+        kd_ReligionSex.addSong(new Song("Sweet Darkness of Solitude (Z Mix)", -1, ""));
+        kd_ReligionSex.addSong(new Song("Convoy (Moody Mix)", -1, ""));
+        kd_ReligionSex.addSong(new Song("Once Is Not Enough", -1, ""));
+        kd_ReligionSex.addSong(new Song("Blueuropa (Piano Mix)", -1, ""));
+        kd_ReligionSex.addSong(new Song("Blueuropa (Jam In)", -1, ""));
+        kd_ReligionSex.addSong(new Song("Blueuropa (Jam Out)", -1, ""));
+
+        kd_Dust.addSong(new Song("Angela's Dream", -1, ""));
+        kd_Dust.addSong(new Song("Where Does Your Voice Go When You're No More", -1, ""));
+        kd_Dust.addSong(new Song("Oklahoma to Macedonia", -1, ""));
+        kd_Dust.addSong(new Song("Brothel Tango", -1, ""));
+        kd_Dust.addSong(new Song("The Dead Are Waiting", -1, ""));
+        kd_Dust.addSong(new Song("Why Did You Shoot Me?", -1, ""));
+        kd_Dust.addSong(new Song("R.I.P", -1, ""));
+        kd_Dust.addSong(new Song("Luke's Back", -1, ""));
+        kd_Dust.addSong(new Song("Dust to Dust", -1, ""));
+        kd_Dust.addSong(new Song("Only an Hour After You Die...", -1, ""));
+        kd_Dust.addSong(new Song("Baby Angela", -1, ""));
+        kd_Dust.addSong(new Song("Clouds", -1, ""));
+        kd_Dust.addSong(new Song("Primitive Science", -1, ""));
+
+        kd_Homebound.addSong(new Song("Hereafter", -1, ""));
+        kd_Homebound.addSong(new Song("Primitive Science", -1, ""));
+        kd_Homebound.addSong(new Song("Swimmer", -1, ""));
+        kd_Homebound.addSong(new Song("Close to Comfort", -1, ""));
+        kd_Homebound.addSong(new Song("Sweet Darkness of Solitude", -1, ""));
+        kd_Homebound.addSong(new Song("Balkan Spy", -1, ""));
+        kd_Homebound.addSong(new Song("Rise & Fall", -1, ""));
+        kd_Homebound.addSong(new Song("A Walk Through the Craters", -1, ""));
+        kd_Homebound.addSong(new Song("1 Min, 04 Sec", -1, ""));
+        kd_Homebound.addSong(new Song("Matej", -1, ""));
+
+        kirilDzhajkovski.addAlbum(kd_LaCapinera);
+        kirilDzhajkovski.addAlbum(kd_Balcancan);
+        kirilDzhajkovski.addAlbum(kd_ReligionSex);
+        kirilDzhajkovski.addAlbum(kd_Dust);
+        kirilDzhajkovski.addAlbum(kd_Homebound);
+
+        Album tj_SpaceRebel = new Album("THE JOHN & SPACE REBEL GANG " +
+                "LP", "", 2014, R.drawable.thejohn_spacerebel);
+        Album tj_Waufvw = new Album("WAUFVW!!!", "", 2012, R.drawable.thejohn_waufv);
+        Album tj_Quite = new Album("QUITE NOISE FOR " +
+                "EXPORT", "", 2011, R.drawable.thejohn_quitenose);
+        Album tj_Azdis = new Album("AZDIS", "", 2011, R.drawable.thejohn_azdis);
+        Album tj_SelfTitled = new Album("SELF TITLED", "", 2010, R.drawable.thejohn_selfttitled);
+        Album tj_TiIJas = new Album("Ти И Јас И Градот " +
+                "Наш", "", 2009, R.drawable.thejohn_tiijas);
+        Album tj_Happilysad = new Album("HAPPILYSAD", "", 2007, R.drawable.thejohn_happilysad);
+
+        tj_SpaceRebel.addSong(new Song("Un Autre Chanson Per Toi E", 393, ""));
+        tj_SpaceRebel.addSong(new Song("Ej Ti Kade Si", 119, ""));
+        tj_SpaceRebel.addSong(new Song("Ponekad", 197, ""));
+        tj_SpaceRebel.addSong(new Song("Mi Se Desi Pekol", 129, ""));
+        tj_SpaceRebel.addSong(new Song("Te Sledat", 408, ""));
+        tj_SpaceRebel.addSong(new Song("Sloboda", 534, ""));
+        tj_SpaceRebel.addSong(new Song("Sakam Da Bidam Tvoe Kuche", 181, ""));
+        tj_SpaceRebel.addSong(new Song("Tanz Der Zwergen", 202, ""));
+        tj_SpaceRebel.addSong(new Song("Nebo", 516, ""));
+
+        tj_Waufvw.addSong(new Song("Ujka Relja", 240, ""));
+        tj_Waufvw.addSong(new Song("Kralica", 195, ""));
+        tj_Waufvw.addSong(new Song("Waufvw!!!", 148, ""));
+        tj_Waufvw.addSong(new Song("S.D.R.Da Roka", 325, ""));
+        tj_Waufvw.addSong(new Song("Za Nas Nema Kraj", 291, ""));
+        tj_Waufvw.addSong(new Song("Chetvrtok", 260, ""));
+        tj_Waufvw.addSong(new Song("24/7", 275, ""));
+        tj_Waufvw.addSong(new Song("Myau", 463, ""));
+
+        tj_Quite.addSong(new Song("Teshka Kategorija", 166, ""));
+        tj_Quite.addSong(new Song("Pushti Struja Niz Mene", 199, ""));
+        tj_Quite.addSong(new Song("Pojachanje", 226, ""));
+        tj_Quite.addSong(new Song("Dosada", 264, ""));
+        tj_Quite.addSong(new Song("All Mi Hours", 318, ""));
+        tj_Quite.addSong(new Song("Don't You Call Me", 390, ""));
+        tj_Quite.addSong(new Song("Indie And The City", 324, ""));
+        tj_Quite.addSong(new Song("First Analogue Flirt", 285, ""));
+        tj_Quite.addSong(new Song("Chin Quih", 225, ""));
+
+        tj_Azdis.addSong(new Song("Teshka Kategorija", 166, ""));
+        tj_Azdis.addSong(new Song("Pushti Struja Niz Mene", 199, ""));
+        tj_Azdis.addSong(new Song("Pojachanje", 226, ""));
+        tj_Azdis.addSong(new Song("Dosada", 264, ""));
+
+        tj_SelfTitled.addSong(new Song("Dosada", 354, ""));
+        tj_SelfTitled.addSong(new Song("Falsche Freunde", 274, ""));
+        tj_SelfTitled.addSong(new Song("Laces", 234, ""));
+        tj_SelfTitled.addSong(new Song("Only Little Fishes", 344, ""));
+        tj_SelfTitled.addSong(new Song("Nie Sme Od Skopje", 523, ""));
+        tj_SelfTitled.addSong(new Song("Charles's Broken Poetry Finger", 264, ""));
+
+        tj_TiIJas.addSong(new Song("140 BPM", 268, ""));
+        tj_TiIJas.addSong(new Song("Samo 1 Pogled Mal", 233, ""));
+        tj_TiIJas.addSong(new Song("Nie Sme Od Skopje", 229, ""));
+        tj_TiIJas.addSong(new Song("Ova ne e Disko", 284, ""));
+        tj_TiIJas.addSong(new Song("Ti i Jas i Gradot Nash", 322, ""));
+        tj_TiIJas.addSong(new Song("Lek", 86, ""));
+        tj_TiIJas.addSong(new Song("Tvoj Lichen Di Dzhej", 330, ""));
+        tj_TiIJas.addSong(new Song("2 dena Ok", 202, ""));
+        tj_TiIJas.addSong(new Song("Kraj", 152, ""));
+        tj_TiIJas.addSong(new Song("Tvoj Lichen Di Dzhej (Remix)", 366, ""));
+
+        tj_Happilysad.addSong(new Song("Lillyputbahn", 208, ""));
+        tj_Happilysad.addSong(new Song("GermanBoy", 209, ""));
+        tj_Happilysad.addSong(new Song("Interstellar Overdrive Of My Own", 183, ""));
+        tj_Happilysad.addSong(new Song("Mr. Komplex", 197, ""));
+        tj_Happilysad.addSong(new Song("John is Going Home", 173, ""));
+        tj_Happilysad.addSong(new Song("Lillyputbahn (Reprise)", 105, ""));
+
+        theJohn.addAlbum(tj_SpaceRebel);
+        theJohn.addAlbum(tj_Waufvw);
+        theJohn.addAlbum(tj_Quite);
+        theJohn.addAlbum(tj_Azdis);
+        theJohn.addAlbum(tj_SelfTitled);
+        theJohn.addAlbum(tj_TiIJas);
+        theJohn.addAlbum(tj_Happilysad);
+
+        Album mi_Ti = new Album("TI", "", 2015, R.drawable.millko_ti);
+        Album mi_Sredba = new Album("SREDBA", "", 2014, R.drawable.millko_sredba);
+        Album mi_Lugje = new Album("Луѓе", "", 2013, R.drawable.millko_lugje);
+        Album mi_OdiBezZborovi = new Album("ODI BEZ ZBOROVI", "", 2012, R.drawable.millko_odibezzborovi);
+        Album mi_Changes = new Album("CHANGES", "", 2009, R.drawable.millko_changes);
+        Album mi_DontLetThemWin = new Album("DON'T LET THEM WIN", "", 2008, R.drawable.millko_dontletthemwin);
+
+        mi_Ti.addSong(new Song("Ti", 240, ""));
+
+        mi_Sredba.addSong(new Song("Sredba", 205, ""));
+
+        mi_Lugje.addSong(new Song("Magjepsan i Chuden Svet", 198, ""));
+        mi_Lugje.addSong(new Song("Prodolzhuvash Da Sonuvash", 246, ""));
+        mi_Lugje.addSong(new Song("Kako Si Stari", 235, ""));
+        mi_Lugje.addSong(new Song("Pogled", 367, ""));
+        mi_Lugje.addSong(new Song("Ti Ne Si Sam", 153, ""));
+        mi_Lugje.addSong(new Song("Bez Ime", 160, ""));
+        mi_Lugje.addSong(new Song("Bez Izlez", 218, ""));
+        mi_Lugje.addSong(new Song("Odi Bez Zborovi", 216, ""));
+        mi_Lugje.addSong(new Song("She Knows Everyone", 249, ""));
+        mi_Lugje.addSong(new Song("Never Let Them Win", 174, ""));
+
+        mi_OdiBezZborovi.addSong(new Song("Odi Bez Zborovi", 216, ""));
+
+        mi_Changes.addSong(new Song("2in1", 278, ""));
+        mi_Changes.addSong(new Song("Light in The Dark", 152, ""));
+        mi_Changes.addSong(new Song("New York", 217, ""));
+        mi_Changes.addSong(new Song("Something Borrowed", 211, ""));
+        mi_Changes.addSong(new Song("Song 5", 277, ""));
+
+        mi_DontLetThemWin.addSong(new Song("Pieces From My Books", 217, ""));
+        mi_DontLetThemWin.addSong(new Song("Dont Let Them Win", 136, ""));
+        mi_DontLetThemWin.addSong(new Song("Gone", 267, ""));
+        mi_DontLetThemWin.addSong(new Song("Zero", 182, ""));
+        mi_DontLetThemWin.addSong(new Song("Ego Disco", 141, ""));
+
+        millko.addAlbum(mi_Ti);
+        millko.addAlbum(mi_Sredba);
+        millko.addAlbum(mi_Lugje);
+        millko.addAlbum(mi_OdiBezZborovi);
+        millko.addAlbum(mi_Changes);
+        millko.addAlbum(mi_DontLetThemWin);
+
+        Album fo_PijanSlavej = new Album("Пијан Славеј", "", 2015, R.drawable.foltin_pijanslavej);
+        Album fo_Antitelo = new Album("Антитело", "", 2012, R.drawable.foltin_antitelo);
+        Album fo_OvaMashina = new Album("Ova Transplantirana Mashina Za Chukanje Dosega Ne Tipkala " +
+                "Ljubovno Pismo", "", 2008, R.drawable.foltin_ovaatransplatirana);
+        Album fo_LoLee = new Album("Lo-Lee-Ta-Too", "", 2005, R.drawable.foltin_loleetatoo);
+        Album fo_Donkey = new Album("Donkey Hot", "", 2003, R.drawable.foltin_donkeyhot);
+        Album fo_Archimed = new Album("Archimed", "", 2000, R.drawable.foltin_archimed);
+        Album fo_OutreMer = new Album("Outre-Mer", "", 1997, R.drawable.foltin_outremer);
+
+        fo_PijanSlavej.addSong(new Song("Ela Si V Krevet", -1, ""));
+        fo_PijanSlavej.addSong(new Song("Pijan Slavej", -1, ""));
+        fo_PijanSlavej.addSong(new Song("Oblache", -1, ""));
+        fo_PijanSlavej.addSong(new Song("Mi Padna Gazo", -1, ""));
+        fo_PijanSlavej.addSong(new Song("Slobodnata Ljubov", -1, ""));
+        fo_PijanSlavej.addSong(new Song("Kupidon", -1, ""));
+
+        fo_Antitelo.addSong(new Song("Antitelo", -1, ""));
+        fo_Antitelo.addSong(new Song("Kral Na Kauchot", -1, ""));
+        fo_Antitelo.addSong(new Song("Amanaman", -1, ""));
+        fo_Antitelo.addSong(new Song("Bezobrazen Krevet", -1, ""));
+        fo_Antitelo.addSong(new Song("Dvojka", -1, ""));
+        fo_Antitelo.addSong(new Song("Bokser", -1, ""));
+
+        fo_OvaMashina.addSong(new Song("131", 154, ""));
+        fo_OvaMashina.addSong(new Song("87", 347, ""));
+        fo_OvaMashina.addSong(new Song("128", 352, ""));
+        fo_OvaMashina.addSong(new Song("120", 310, ""));
+        fo_OvaMashina.addSong(new Song("110", 144, ""));
+
+        fo_LoLee.addSong(new Song("Financial Times", 113, ""));
+        fo_LoLee.addSong(new Song("Lo-Lee-Taa-Too", 254, ""));
+        fo_LoLee.addSong(new Song("The Tip of The Tongue", 247, ""));
+        fo_LoLee.addSong(new Song("If You Touch Me I'll Die", 338, ""));
+        fo_LoLee.addSong(new Song("Ding Dong", 267, ""));
+        fo_LoLee.addSong(new Song("Psst!", 190, ""));
+        fo_LoLee.addSong(new Song("Garneta", 251, ""));
+        fo_LoLee.addSong(new Song("Prsti Prsti", 284, ""));
+        fo_LoLee.addSong(new Song("Milica", 222, ""));
+
+        fo_Donkey.addSong(new Song("Engracadinha", 431, ""));
+        fo_Donkey.addSong(new Song("Moulin Rouge", 273, ""));
+        fo_Donkey.addSong(new Song("I Like To Be A Horse", 384, ""));
+        fo_Donkey.addSong(new Song("Teresa", 395, ""));
+        fo_Donkey.addSong(new Song("No Coche No Mujer", 255, ""));
+        fo_Donkey.addSong(new Song("Muriel Mule", 315, ""));
+        fo_Donkey.addSong(new Song("Donkey Hot", 378, ""));
+
+        fo_Archimed.addSong(new Song("Archimed", 210, ""));
+        fo_Archimed.addSong(new Song("The Custos Wife", 662, ""));
+        fo_Archimed.addSong(new Song("In The White Cities", 490, ""));
+        fo_Archimed.addSong(new Song("Topka", 374, ""));
+        fo_Archimed.addSong(new Song("The Sky And The Clouds Are A Wavy Sea", 403, ""));
+        fo_Archimed.addSong(new Song("Tango For Three", 447, ""));
+        fo_Archimed.addSong(new Song("Archimed", 443, ""));
+
+        fo_OutreMer.addSong(new Song("Mediterranevs", 503, ""));
+        fo_OutreMer.addSong(new Song("Doagja Son!", 416, ""));
+        fo_OutreMer.addSong(new Song("Brotche", 191, ""));
+        fo_OutreMer.addSong(new Song("Latino + La Parol", 661, ""));
+        fo_OutreMer.addSong(new Song("Ni Pet Ni Shest", 149, ""));
+        fo_OutreMer.addSong(new Song("Ho-Nsi", 238, ""));
+
+        foltin.addAlbum(fo_PijanSlavej);
+        foltin.addAlbum(fo_Antitelo);
+        foltin.addAlbum(fo_OvaMashina);
+        foltin.addAlbum(fo_LoLee);
+        foltin.addAlbum(fo_Donkey);
+        foltin.addAlbum(fo_Archimed);
+        foltin.addAlbum(fo_OutreMer);
 
 
         b.add(foolishGreen);
@@ -206,6 +445,7 @@ public class LoadBands {
         b.add(theJohn);
         b.add(millko);
         b.add(foltin);
+        // Ne dovrsheni
         b.add(beiTheFish);
         b.add(galatheia);
         b.add(robotek);

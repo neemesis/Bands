@@ -3,25 +3,52 @@
     android:orientation="horizontal" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/songNumber"
-        android:textSize="40sp"
-        android:gravity="center"
-        android:layout_width="@dimen/numbering"
-        android:layout_height="@dimen/numbering" />
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:minHeight="@dimen/numbering"
+        android:layout_weight=".15">
 
-    <TextView
-        android:id="@+id/songName"
-        android:gravity="center"
-        android:textSize="22sp"
-        android:layout_width="wrap_content"
-        android:layout_height="@dimen/numbering" />
+        <TextView
+            android:id="@+id/songNumber"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:layout_width="@dimen/numbering"
+            android:layout_height="fill_parent" />
 
-    <TextView
-        android:gravity="center"
-        android:textSize="22sp"
-        android:id="@+id/songLength"
-        android:layout_width="@dimen/numbering"
-        android:layout_height="@dimen/numbering" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:minHeight="@dimen/numbering"
+        android:layout_weight=".7">
+
+        <TextView
+            android:id="@+id/songName"
+            android:gravity="center_vertical"
+            android:textSize="22sp"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:minHeight="@dimen/numbering"
+        android:layout_weight=".15">
+
+        <TextView
+            android:gravity="center"
+            android:textSize="22sp"
+            android:id="@+id/songLength"
+            android:layout_width="@dimen/numbering"
+            android:layout_height="fill_parent" />
+
+    </RelativeLayout>
+
 
 </LinearLayout>
