@@ -69,19 +69,6 @@ public class LoadBands {
                 " went through different turbulations and constant member changes, but " +
                 "managed high quality releases and exciting live shows in Skopje area " +
                 "and Macedonia.\n", "Genre", R.drawable.thejohn);
-        Band robotek = new Band("Robotek", "\nIf we talk about authentic, modern Macedonian" +
-                " electronic music, we talk about ROBOTEK. He is definitely the one who " +
-                "is most advanced, both in a technical and spiritual use of the machines " +
-                "wich create sound. His musical development is an obvious logical " +
-                "progression, beginning with the obscure Atari/Amiga sound experiments " +
-                "circa 1996; early warp influenced protoelectro stuff around 1998; the " +
-                "trip in deep techno and house territory at the turn of the century and " +
-                "finally new wave electro, disco punk, minimal madness and of course sweet" +
-                " pop songs. He is part of PMG RECORDINGS since its beginnings, contributing" +
-                " tracks for their first compilations of modern Macedonian electronic music" +
-                " in 1999. Since than he becomes regular on the scene, playing live and " +
-                "djing in Skopje, Macedonia " +
-                "and Europe.\n", "Electronic Music", R.drawable.robotek);
         Band millko = new Band("Millko", "\n\"Millko\" was born in Autumn 2006 in a dark and " +
                 "very filthy subterranean premise in a Skopje suburb. \"Millko\" is " +
                 "the result of a joint idea that was developed by way of imagination " +
@@ -439,16 +426,167 @@ public class LoadBands {
         foltin.addAlbum(fo_Archimed);
         foltin.addAlbum(fo_OutreMer);
 
+        Album btf_AtTheEnd = new Album("At The End of The Sand", "", 2012, R.drawable.beithefish_attheend);
+        Album btf_BrodZaKukli = new Album("Brod za Kukli", "", 2010, R.drawable.beithefish_brodzakukli);
+        Album btf_MusicAbout = new Album("Music About All About", "", 2009, R.drawable.beithefish_musicabout);
+        Album btf_TimeToMake = new Album("Time to Make Things Right", "", 2009, R.drawable.beithefish_timetomake);
+        Album btf_Living = new Album("Living in a Box", "", 2009, R.drawable.beithefish_livinginabox);
+        Album btf_MaratSade = new Album("Marat Sade", "", 2009, R.drawable.beithefish_maratsade);
+        Album btf_WhatAreYou = new Album("What Are You Fighting For", "", 2006, R.drawable.beithefish_whatareyou);
+
+        btf_AtTheEnd.addSong(new Song("Back to The Roots", 258, ""));
+        btf_AtTheEnd.addSong(new Song("Blind", 245, ""));
+        btf_AtTheEnd.addSong(new Song("Technology", 237, ""));
+        btf_AtTheEnd.addSong(new Song("Instant Generation", 242, ""));
+        btf_AtTheEnd.addSong(new Song("Control", 294, ""));
+        btf_AtTheEnd.addSong(new Song("Haves and Have Nots", 277, ""));
+        btf_AtTheEnd.addSong(new Song("At The End Of The Sand", 264, ""));
+
+        btf_BrodZaKukli.addSong(new Song("Intro", -1, ""));
+        btf_BrodZaKukli.addSong(new Song("Prispivna Pesna 1", -1, ""));
+        btf_BrodZaKukli.addSong(new Song("Gazdarica", -1, ""));
+        btf_BrodZaKukli.addSong(new Song("Dole", -1, ""));
+        btf_BrodZaKukli.addSong(new Song("Toa ne e Nashe", -1, ""));
+        btf_BrodZaKukli.addSong(new Song("Ne e toa samo, tuka sum jas", -1, ""));
+        btf_BrodZaKukli.addSong(new Song("Uspeh", -1, ""));
+        btf_BrodZaKukli.addSong(new Song("Se e tvoe, cel Svet e tvoj", -1, ""));
+        btf_BrodZaKukli.addSong(new Song("Mila Moja", -1, ""));
+        btf_BrodZaKukli.addSong(new Song("Prispivna Pesna 2", -1, ""));
+        btf_BrodZaKukli.addSong(new Song("Brod za Kukli", -1, ""));
+        btf_BrodZaKukli.addSong(new Song("Autro", -1, ""));
+
+        btf_MusicAbout.addSong(new Song("Music About All About", 1844, ""));
+
+        btf_TimeToMake.addSong(new Song("Something Starting", -1, ""));
+        btf_TimeToMake.addSong(new Song("SMS Song", -1, ""));
+        btf_TimeToMake.addSong(new Song("All The Time", -1, ""));
+        btf_TimeToMake.addSong(new Song("True Story", -1, ""));
+        btf_TimeToMake.addSong(new Song("After All", -1, ""));
+        btf_TimeToMake.addSong(new Song("Holiday", -1, ""));
+        btf_TimeToMake.addSong(new Song("Girl", -1, ""));
+        btf_TimeToMake.addSong(new Song("When You Let Me", -1, ""));
+        btf_TimeToMake.addSong(new Song("Livin' in a Box", -1, ""));
+        btf_TimeToMake.addSong(new Song("Time To Make Things Right", -1, ""));
+        btf_TimeToMake.addSong(new Song("Sexy Night, Lovely Shoes", -1, ""));
+
+        btf_Living.addSong(new Song("Livin' in a Box", 223, ""));
+
+        btf_MaratSade.addSong(new Song("Разбудете Се", -1, ""));
+        btf_MaratSade.addSong(new Song("ЕПП", -1, ""));
+        btf_MaratSade.addSong(new Song("Осаменост", -1, ""));
+        btf_MaratSade.addSong(new Song("Гласник 1", -1, ""));
+        btf_MaratSade.addSong(new Song("Омаж За Мара", -1, ""));
+        btf_MaratSade.addSong(new Song("Што Чекаме?", -1, ""));
+        btf_MaratSade.addSong(new Song("Де Сад Против Мара", -1, ""));
+        btf_MaratSade.addSong(new Song("До Гуша Во...", -1, ""));
+        btf_MaratSade.addSong(new Song("Гласник 2", -1, ""));
+        btf_MaratSade.addSong(new Song("Нож", -1, ""));
+        btf_MaratSade.addSong(new Song("Обид За Атентат", -1, ""));
+        btf_MaratSade.addSong(new Song("Гласник", -1, ""));
+        btf_MaratSade.addSong(new Song("Невиност", -1, ""));
+        btf_MaratSade.addSong(new Song("Смрт", -1, ""));
+        btf_MaratSade.addSong(new Song("Апел", -1, ""));
+        btf_MaratSade.addSong(new Song("Литургија", -1, ""));
+        btf_MaratSade.addSong(new Song("Разум", -1, ""));
+        btf_MaratSade.addSong(new Song("Обид За Атентат 2", -1, ""));
+        btf_MaratSade.addSong(new Song("Загари", -1, ""));
+        btf_MaratSade.addSong(new Song("Заклетва", -1, ""));
+        btf_MaratSade.addSong(new Song("Срамот На Буржоазијата", -1, ""));
+        btf_MaratSade.addSong(new Song("Замка", -1, ""));
+        btf_MaratSade.addSong(new Song("Мортификација", -1, ""));
+        btf_MaratSade.addSong(new Song("Трип", -1, ""));
+        btf_MaratSade.addSong(new Song("Лов", -1, ""));
+        btf_MaratSade.addSong(new Song("Гласник 3", -1, ""));
+        btf_MaratSade.addSong(new Song("Бунт", -1, ""));
+        btf_MaratSade.addSong(new Song("Атентат", -1, ""));
+        btf_MaratSade.addSong(new Song("Поента", -1, ""));
+        btf_MaratSade.addSong(new Song("Лидер", -1, ""));
+        btf_MaratSade.addSong(new Song("Страст", -1, ""));
+
+        btf_WhatAreYou.addSong(new Song("Intro With Simultanious Translation", -1, ""));
+        btf_WhatAreYou.addSong(new Song("A Machine Like You", -1, ""));
+        btf_WhatAreYou.addSong(new Song("This Is How You Sound Trough Me", -1, ""));
+        btf_WhatAreYou.addSong(new Song("What Are You Fighting For?", -1, ""));
+
+        beiTheFish.addAlbum(btf_AtTheEnd);
+        beiTheFish.addAlbum(btf_BrodZaKukli);
+        beiTheFish.addAlbum(btf_MusicAbout);
+        beiTheFish.addAlbum(btf_TimeToMake);
+        beiTheFish.addAlbum(btf_Living);
+        beiTheFish.addAlbum(btf_MaratSade);
+        beiTheFish.addAlbum(btf_WhatAreYou);
+
+        Album ga_Prag = new Album("Prag", "", 2014, R.drawable.galatheia_prag);
+        Album ga_AllWe = new Album("All We Ever Wanted Was Everything", "", 2012, R.drawable.galatheia_allweever);
+
+        ga_Prag.addSong(new Song("Prag", 350, ""));
+        ga_Prag.addSong(new Song("Prag (PMG Kolektiv Remix)", 291, ""));
+        ga_Prag.addSong(new Song("Prag (Dusko Janevski Edit)", 320, ""));
+
+        ga_AllWe.addSong(new Song("All We Ever Wanted Was Everything", 609, ""));
+        ga_AllWe.addSong(new Song("Neuropolitiks", 350, ""));
+
+        galatheia.addAlbum(ga_Prag);
+        galatheia.addAlbum(ga_AllWe);
+
+        Album pmg_ExYou = new Album("#ExYou", "", 2015, R.drawable.pmg_exyou);
+        Album pmg_TiSiMojot = new Album("Ti Si Mojot Svet", "", 2015, R.drawable.pmg_tisimojot);
+        Album pmg_RetkoTe = new Album("Retko te Gledam so Devojki", "", 2015, R.drawable.pmg_retkotegledam);
+        Album pmg_80ti = new Album("80Ti EP", "", 2014, R.drawable.pmg_80ti);
+        Album pmg_103 = new Album("103 - Љубовно Писмо До Алтернативната Култура", "", 2013, R.drawable.pmg_ljubovno);
+        Album pmg_Grad = new Album("Grad Vo Pustina", "", 2012, R.drawable.pmg_gradvopustina);
+        Album pmg_Klan = new Album("Klan Secular", "", 2013, R.drawable.pmg_klan);
+
+        pmg_ExYou.addSong(new Song("80Ti", -1, ""));
+        pmg_ExYou.addSong(new Song("Kultura", -1, ""));
+        pmg_ExYou.addSong(new Song("Srekjen", -1, ""));
+        pmg_ExYou.addSong(new Song("Ti Si Mojot Svet", -1, ""));
+        pmg_ExYou.addSong(new Song("Gragjanin Na Svetot", -1, ""));
+        pmg_ExYou.addSong(new Song("Elektroni", -1, ""));
+        pmg_ExYou.addSong(new Song("#ExYou Instrumental", -1, ""));
+        pmg_ExYou.addSong(new Song("Retko te Gledam so Devojki", -1, ""));
+        pmg_ExYou.addSong(new Song("Amerika", -1, ""));
+
+        pmg_TiSiMojot.addSong(new Song("Ti Si Mojot Svet", 255, ""));
+        pmg_TiSiMojot.addSong(new Song("Kultura (Kanton6 Dance Megamix)", 291, ""));
+        pmg_TiSiMojot.addSong(new Song("Kultura (Vidinovski tool rmx)", 284, ""));
+
+        pmg_RetkoTe.addSong(new Song("Retko te Gledam so Devojki", 298, ""));
+        pmg_RetkoTe.addSong(new Song("The Next Jay-Z", 330, ""));
+
+        pmg_80ti.addSong(new Song("80Ti", 300, ""));
+        pmg_80ti.addSong(new Song("Atmosfera", 354, ""));
+        pmg_80ti.addSong(new Song("JFK (Live)", 269, ""));
+
+        pmg_103.addSong(new Song("103 - Љубовно Писмо До Алтернативната Култура", 3300, ""));
+
+        pmg_Grad.addSong(new Song("Grad Vo Pustina", 324, ""));
+
+        pmg_Klan.addSong(new Song("S'lnce Ili Zimo", -1, ""));
+        pmg_Klan.addSong(new Song("Poslednata Bitka", -1, ""));
+        pmg_Klan.addSong(new Song("Ovde Crkva", -1, ""));
+        pmg_Klan.addSong(new Song("Nie Sme Lugje", -1, ""));
+        pmg_Klan.addSong(new Song("Devet", -1, ""));
+        pmg_Klan.addSong(new Song("Igraj", -1, ""));
+        pmg_Klan.addSong(new Song("Zeleno", -1, ""));
+        pmg_Klan.addSong(new Song("Klan secular", -1, ""));
+        pmg_Klan.addSong(new Song("Pravo", -1, ""));
+
+        pmg.addAlbum(pmg_ExYou);
+        pmg.addAlbum(pmg_TiSiMojot);
+        pmg.addAlbum(pmg_RetkoTe);
+        pmg.addAlbum(pmg_80ti);
+        pmg.addAlbum(pmg_103);
+        pmg.addAlbum(pmg_Grad);
+        pmg.addAlbum(pmg_Klan);
 
         b.add(foolishGreen);
         b.add(kirilDzhajkovski);
         b.add(theJohn);
         b.add(millko);
         b.add(foltin);
-        // Ne dovrsheni
         b.add(beiTheFish);
         b.add(galatheia);
-        b.add(robotek);
         b.add(pmg);
 
         return b;

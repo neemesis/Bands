@@ -4,9 +4,12 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.KeyEvent;
+import android.view.MenuInflater;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.PopupMenu;
 
 import java.util.ArrayList;
 
@@ -14,7 +17,7 @@ public class MainActivity extends Activity {
 
     private static final String TAG = "D.INFO";
 
-    ArrayList<Band> bands;
+    private ArrayList<Band> bands;
     private int beforePosition = 0;
 
     // Activity Lifecycle Part

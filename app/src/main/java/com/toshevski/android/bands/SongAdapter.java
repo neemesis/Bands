@@ -43,6 +43,7 @@ public class SongAdapter extends ArrayAdapter<String> {
         TextView duration = (TextView) convertView.findViewById(R.id.songLength);
         if (songs.get(position).getDuration() != -1)
             duration.setText(songs.get(position).getDuration() / 60 + ":" + songs.get(position).getDuration() % 60);
+        else duration.setText("n/a");
 
         return convertView;
     }
